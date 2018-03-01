@@ -1,0 +1,41 @@
+img{
+    margin-top:20px;
+}
+
+img.d-block.img-fluid{
+    min-width:100vw;
+    height:60vh;
+}
+
+.card-wrapper{
+    margin: 0 auto;
+}
+
+// // desktop screen size
+@media screen and (min-width: 768px) {
+
+    .promo-wrapper{
+        margin: 0 auto;
+    }
+
+    .jumbo-half-left{
+        width: 100%;
+    }
+
+    .jumbo-half-right{
+        width: 100%;
+    }
+
+}
+
+// //mobile tablet screen size
+// div.jumbotron.jumbo-half-left{
+//     max-width:100vw!important;
+// }
+
+
+// div.jumbotron.jumbo-half-right{
+//     max-width:100vw!important;
+
+// }
+

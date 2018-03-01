@@ -1,0 +1,44 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" routerLink="/home">
+  <img src="../../../assets/img/greyscale-intesol_logo_brighton.jpg" alt="plain-logo">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" routerLink="/about">About</a>
+      </li>
+      
+      <li class="dropdown">
+          <a class="nav-link" routerLink="/courses">Courses</a>
+          
+          <ul class="dropdown-menu" role="listbox">
+             <li><a routerLink="/courses120hours" class="nav-link">120 Hour Course</a></li>
+             <li class="divider"></li>
+             <li><a routerLink="/courses190hours" class="nav-link">190 Hour Course</a></li>
+    
+          </ul>
+       </li>
+       <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="/jobs">Jobs</a>
+        </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" routerLink="/faqs">FAQ's</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" routerLink="/blog">Blog</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="/contact">Contact</a>
+        </li>
+  
+
+ 
+    </ul>
+    <button type="button submit" class="btn btn-dark">Enroll Now</button>
+  </div>
+</nav>

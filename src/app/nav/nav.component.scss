@@ -1,0 +1,29 @@
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+
+.btn:hover{
+    cursor: pointer;
+}
+
+// nav nenu alignment
+
+img{
+    max-height: 75px;
+    width:auto;
+}
+
+ul.navbar-nav.mr-auto{
+    margin-left:12em;
+}
+
+@media only screen and (min-width: 768px){
+ul.navbar-nav.mr-auto{
+    margin:0 auto;
+}
+}
+
+// div#navbarSupportedContent.collapse.navbar-collapse.collapse.show{
+//     margin-left:-3em!important;
+//     border: 3px solid red;
+// }
